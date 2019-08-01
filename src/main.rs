@@ -67,7 +67,7 @@ fn main() {
         .with_reports(epochs_between_reports)
         .train(max_epochs, desired_error).unwrap();
     
-    fann.save("network.txt");
+    //fann.save("network.txt");
 }
 
 fn image_to_vec(image: &Vec<u8>) -> Vec<f32> {
